@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -18,4 +16,5 @@ group :development, :test do
 end
 
 group :development do
+ # Use console on exceptions pages [https://github.com/rails/web-console]
 end
